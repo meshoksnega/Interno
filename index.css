@@ -6,6 +6,34 @@
   flex-shrink: 0;
 }
 
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  color: #fff; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.frame:hover {
+  transform: scale(1.05); 
+}
+
+
+.get-started {
+  margin-left: 10px; 
+  font-weight: bold; 
+}
+
+
+.image-icon2 {
+  width: 20px;
+  height: 20px;
+}
+
 nav a {
   text-decoration: none;
   color: black; 
@@ -48,7 +76,7 @@ nav a:hover {
 }
 
 .image3:hover .get-free-estimate {
-  color: #DAA520;
+  color: #ffffff;
 }
 
 
@@ -57,7 +85,6 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  background-color: #007BFF; 
   color: #fff; 
   border: none; 
   border-radius: 5px; 
@@ -98,6 +125,27 @@ nav a:hover {
 .image-icon2 {
   width: 20px;
   height: 20px;
+}
+
+.home,
+.about-us,
+.services,
+.pages,
+.contact-us {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home:hover,
+.about-us:hover,
+.services:hover,
+.pages:hover,
+.contact-us:hover {
+  transform: scale(1.05);
 }
 
 .about-us,
