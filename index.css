@@ -5,6 +5,101 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
+nav a {
+  text-decoration: none;
+  color: black; 
+  transition: color 0.3s ease-in-out; 
+}
+
+nav a:hover {
+  color: #DAA520;
+}
+
+.image-icon13 {
+  cursor: pointer; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.image-icon13:hover {
+  transform: scale(1.1); 
+  background-color: #f0f0f0; 
+  border-radius: 50%;
+}
+
+.image3 {
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.image3:hover {
+  transform: scale(1.05); 
+  background-color: #f0f0f0; 
+  border-radius: 5px; 
+}
+
+.get-free-estimate {
+  font-weight: bold; 
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.image3:hover .get-free-estimate {
+  color: #DAA520;
+}
+
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #007BFF; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.example-images img {
+  cursor: pointer; 
+  transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+
+.example-images img:hover {
+  transform: scale(1.1); 
+  filter: brightness(1.2);
+}
+
+
+.example-images {
+  display: inline-block; 
+  margin-top: 10px;
+}
+
+
+.social-container:hover {
+  transform: scale(1.05); 
+}
+
+
+.connect-with-us {
+  margin-left: 5px; 
+
+}
+
+
+.image-icon2 {
+  width: 20px;
+  height: 20px;
+}
+
 .about-us,
 .home,
 .pages,
@@ -14,10 +109,6 @@
   letter-spacing: 0.4px;
   line-height: 30px;
   display: inline-block;
-}
-.home {
-  color: var(--color-burlywood);
-  min-width: 54px;
 }
 .about-us,
 .pages,
